@@ -17,6 +17,7 @@ type	    |true  |string       |类型 banner(首页banner位图片)，menu（主
 
 
 #### 响应数据
+```
 {
   "dataList": [
     {
@@ -70,3 +71,4 @@ type	    |true  |string       |类型 banner(首页banner位图片)，menu（主
   ],
   "status": "success"
 }
+```
