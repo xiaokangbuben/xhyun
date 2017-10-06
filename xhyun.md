@@ -329,3 +329,151 @@ menuId	    |true  |int      | |
   "status": "success"
 }
 ```
+
+------------
+
+### 8.获取主页列表  get  /article/getByHomePage.do
+#### 请求参数
+|参数        |必选   |类型    	|说明|
+---         |---    |---    	|---|
+
+
+#### 响应参数类型说明
+|参数        	|类型    	|说明|
+|---         	|---    	|---|
+|id              |int		|文章id|
+|title           |String		|文章标题|
+|createTime          |long		|文章发布时间|
+|imgUrl          |String		|文章图片地址|
+
+#newsList 新闻中心
+#serviceList 服务项目
+#productList 产品中心
+#solveList 解决方案
+
+
+
+#### 响应数据
+```
+{
+  "newsList": [
+    {
+      "imgUrl": "http://wiki.mbalib.com/w/images/5/54/Steve_Jobs.jpg",
+      "articeTypeId": 9,
+      "validStatus": 1,
+      "createTime": 1506232553000,
+      "menuId": 34,
+      "id": 12,
+      "title": "1新闻中心哈哈哈"
+    },
+    {
+      "imgUrl": "http://wiki.mbalib.com/w/images/5/54/Steve_Jobs.jpg",
+      "articeTypeId": 9,
+      "validStatus": 1,
+      "createTime": 1506232553000,
+      "menuId": 34,
+      "id": 13,
+      "title": "2新闻中心哈哈哈"
+    },
+    {
+      "imgUrl": "http://wiki.mbalib.com/w/images/5/54/Steve_Jobs.jpg",
+      "articeTypeId": 9,
+      "validStatus": 1,
+      "createTime": 1506232553000,
+      "menuId": 34,
+      "id": 14,
+      "title": "3新闻中心哈哈哈"
+    }
+  ],
+  "serviceList": [
+    {
+      "imgUrl": "http://wiki.mbalib.com/w/images/5/54/Steve_Jobs.jpg",
+      "articeTypeId": 5,
+      "validStatus": 1,
+      "createTime": 1506232553000,
+      "menuId": 33,
+      "id": 8,
+      "title": "现场安装指导"
+    },
+    {
+      "imgUrl": "http://wiki.mbalib.com/w/images/5/54/Steve_Jobs.jpg",
+      "articeTypeId": 6,
+      "validStatus": 1,
+      "createTime": 1506232553000,
+      "menuId": 33,
+      "id": 9,
+      "title": "专业培训"
+    },
+    {
+      "imgUrl": "http://wiki.mbalib.com/w/images/5/54/Steve_Jobs.jpg",
+      "articeTypeId": 7,
+      "validStatus": 1,
+      "createTime": 1506232553000,
+      "menuId": 33,
+      "id": 10,
+      "title": "恢复性能跟维修"
+    }
+  ],
+  "solveList": [
+    {
+      "imgUrl": "http://wiki.mbalib.com/w/images/5/54/Steve_Jobs.jpg",
+      "articeTypeId": 4,
+      "validStatus": 1,
+      "createTime": 1506232553000,
+      "menuId": 32,
+      "id": 5,
+      "title": "加热1乔布斯传记"
+    },
+    {
+      "imgUrl": "http://wiki.mbalib.com/w/images/5/54/Steve_Jobs.jpg",
+      "articeTypeId": 4,
+      "validStatus": 1,
+      "createTime": 1506232553000,
+      "menuId": 32,
+      "id": 6,
+      "title": "加热2乔布斯传记"
+    },
+    {
+      "imgUrl": "http://wiki.mbalib.com/w/images/5/54/Steve_Jobs.jpg",
+      "articeTypeId": 4,
+      "validStatus": 1,
+      "createTime": 1506232553000,
+      "menuId": 32,
+      "id": 7,
+      "title": "加热3乔布斯传记"
+    }
+  ],
+  "productList": [
+    {
+      "imgUrl": "http://wiki.mbalib.com/w/images/5/54/Steve_Jobs.jpg",
+      "articeTypeId": 1,
+      "validStatus": 1,
+      "createTime": 1506232553000,
+      "menuId": 31,
+      "id": 1,
+      "title": "1乔布斯传记"
+    },
+    {
+      "imgUrl": "http://wiki.mbalib.com/w/images/5/54/Steve_Jobs.jpg",
+      "articeTypeId": 1,
+      "validStatus": 1,
+      "createTime": 1506232553000,
+      "menuId": 31,
+      "id": 2,
+      "title": "2乔布斯传记"
+    },
+    {
+      "imgUrl": "http://wiki.mbalib.com/w/images/5/54/Steve_Jobs.jpg",
+      "articeTypeId": 1,
+      "validStatus": 1,
+      "createTime": 1506232553000,
+      "menuId": 31,
+      "id": 3,
+      "title": "3乔布斯传记"
+    }
+  ],
+  "status": "success"
+}
+```
+
+------------
