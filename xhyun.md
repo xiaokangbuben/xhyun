@@ -477,3 +477,30 @@ menuId	    |true  |int      | |
 ```
 
 ------------
+
+
+### .获取banner的图片  get  /base/getPictures.do
+#### 请求参数
+|参数        |必选   |类型    	|说明|
+---         |---    |---    	|---|
+
+#### 响应参数类型说明
+|参数        	|类型    	|说明|
+|---         	|---    	|---|
+{
+  "dataList": [
+    {
+      "path": "http://oxhwauhdh.bkt.clouddn.com/FvURr2vBn0mpESeMTDbYAmNkHtF6",  //地址
+      "createtime": "2017-10-14 22:48:54",
+      "picturesId": "c442a54796794b2785168e4c7ce92334",
+      "name": "349b8462366648018589d018311dfb22.png"
+    },
+    {
+      "path": "http://oxhwauhdh.bkt.clouddn.com/FmO9aa0dtdh8Qt5gNWh4iaJJXKuS",
+      "createtime": "2017-10-14 23:33:02",
+      "picturesId": "d0b527e2da034a11b89c8c72c2e5b818",
+      "name": ""
+    }
+  ],
+  "status": "success"
+}
